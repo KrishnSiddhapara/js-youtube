@@ -44,4 +44,29 @@ const myFunction = function(){
 }
 
 
-console.log(typeof anotherId)
+//console.log(typeof anotherId)
+
+
+//+++++++++++++++++++++ Stack and Heap Property ++++++++++++++++++++++++++++++
+
+// Stack(Primitive) , Heap(Non - primitive)
+
+let myyoutubename = "krishnsiddhaparadotcom";
+
+let anothername = myyoutubename
+anothername = "chaaanecode"
+//console.log(anothername)
+//console.log(myyoutubename)
+
+let userOne = {
+        email : "user@gmail.com", 
+        upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "krishn@google.com"
+
+
+console.log(userOne.email)
+console.log(userTwo.email)
