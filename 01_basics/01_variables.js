@@ -4,6 +4,9 @@ var accountPassword = "12345"
 accountCity = "dungarpur"
 let accountState;
 
+/*prefer not to use var 
+because of issue in block scope and functional scope
+ */
 // accountId = 22 )not allowed)
 
 console.log(accountId);

@@ -4,9 +4,10 @@ const score = 400
 
 const Balance = new Number(125)
 //console.log(Balance);
-//console.log(Balance.toString().length);
+// console.log(Balance.toString().length);
 
-//console.log(Balance.toFixed(2));
+
+
 
 
 const otherNumber = 1213.54546
@@ -22,8 +23,8 @@ const Hundreds = 1000000
 //*****************************  Maths  *************************************
 
 
-// console.log(Math);
-// console.log(Math.abs(-121));
+ console.log(Math);
+ console.log(Math.abs(-121));
 
 // console.log(Math.round(21.4));
 // console.log(Math.ceil(23.9));
